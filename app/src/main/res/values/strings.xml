@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pharm4Me</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nav_test">NavTest</string>
+    <string name="LogoDesc">Pharm4Me Logo</string>
+    <string name="title_activity_maps">Pharm4Me Locations</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="NotAvailable">This feature is not available yet! Updates to come soon.</string>
+
+    <!-- Strings related to Settings -->
+    <string-array
+        name="settings_menu">
+        <item>FAQ</item>
+        <item>About Us</item>
+        <item>Log off</item>
+    </string-array>
+
+</resources>

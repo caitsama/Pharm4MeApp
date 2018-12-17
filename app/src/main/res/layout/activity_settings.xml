@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.projects.caitsama.pharm4me.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Pharm4MeDark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/pharm4me_toolbar" android:contentDescription="@string/LogoDesc" />
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/settingsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/settings_menu" />
+
+    <WebView
+        android:id="@+id/logoff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+</LinearLayout>
